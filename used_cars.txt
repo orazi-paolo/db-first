@@ -1,0 +1,24 @@
+Used Cars:
+
+id                                  INT UNSIGNED                      primary key                          NOT NULL
+brand                               VARCHAR                                                       NOT NULL
+model                               VARCHAR                                                       NOT NULL  
+year                                YEAR                                                          NOT NULL  
+mileage                             INT UNSIGNED                                                  NULL DEFAULT = 0
+fuel_type                           VARCHAR                                                       NOT NULL
+transmission                        VARCHAR                                                       NOT NULL  
+engine_capacity                     INT UNSIGNED                                                  NOT NULL
+color                               VARCHAR                                                       NOT NULL
+price                               DECIMAL UNSIGNED                                              NOT NULL
+doors                               TINYINT UNSIGNED                                              NULL DEFAULT = 5      
+sold                                BOOLEAN                                                       NULL DEFAULT = false  
+seats                               TINYINT UNSIGNED                                              NULL DEFAULT = 5                              
+upholstery_material                 VARCHAR                                                       NOT NULL
+maintenance_history                 TEXT                                                          NULL DEFAULT = ""
+air_conditioning                    BOOLEAN                                                       NULL DEFAULT = true  
+cruise_control                      BOOLEAN                                                       NOT NULL
+parking_sensors                     BOOLEAN                                                       NULL DEFAULT = false      
+gps                                 BOOLEAN                                                       NULL DEFAULT = false  
+warranty                            VARCHAR                                                       NULL DEFAULT = "1 anno"  
+images                              VARCHAR                                                       NULL DEFAULT = "images/imagedefaul.png" || "https...."  
+description                         TEXT                                                          NULL DEFAULT = ""
